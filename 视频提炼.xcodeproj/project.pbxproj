@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D6073F51E88AB16009C6C58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6073F41E88AB16009C6C58 /* main.m */; };
+		5D6073F81E88AB16009C6C58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6073F71E88AB16009C6C58 /* AppDelegate.m */; };
+		5D6073FB1E88AB16009C6C58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6073FA1E88AB16009C6C58 /* ViewController.m */; };
+		5D6073FE1E88AB16009C6C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6073FC1E88AB16009C6C58 /* Main.storyboard */; };
+		5D6074001E88AB16009C6C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6073FF1E88AB16009C6C58 /* Assets.xcassets */; };
+		5D6074031E88AB16009C6C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6074011E88AB16009C6C58 /* LaunchScreen.storyboard */; };
+		5D60740E1E88AB17009C6C58 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60740D1E88AB17009C6C58 /* ____Tests.m */; };
+		5D6074191E88AB17009C6C58 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074181E88AB17009C6C58 /* ____UITests.m */; };
+		5D6074301E88B0CF009C6C58 /* TBCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60742F1E88B0CF009C6C58 /* TBCycleView.m */; };
+		5D60743A1E88B0ED009C6C58 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074331E88B0ED009C6C58 /* GLProgram.m */; };
+		5D60743B1E88B0ED009C6C58 /* GPUImageContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074351E88B0ED009C6C58 /* GPUImageContext.m */; };
+		5D60743C1E88B0ED009C6C58 /* GPUImageFramebuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074371E88B0ED009C6C58 /* GPUImageFramebuffer.m */; };
+		5D60743D1E88B0ED009C6C58 /* GPUImageFramebufferCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074391E88B0ED009C6C58 /* GPUImageFramebufferCache.m */; };
+		5D6074411E88B0FB009C6C58 /* PK_Camera_Turn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D60743E1E88B0FB009C6C58 /* PK_Camera_Turn@2x.png */; };
+		5D6074421E88B0FB009C6C58 /* PK_Delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D60743F1E88B0FB009C6C58 /* PK_Delete@2x.png */; };
+		5D6074431E88B0FB009C6C58 /* PK_Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6074401E88B0FB009C6C58 /* PK_Play@2x.png */; };
+		5D6074521E88B109009C6C58 /* PKChatMessagePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074451E88B109009C6C58 /* PKChatMessagePlayerView.m */; };
+		5D6074531E88B109009C6C58 /* PKPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074471E88B109009C6C58 /* PKPlayerView.m */; };
+		5D6074541E88B109009C6C58 /* PKColorConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074491E88B109009C6C58 /* PKColorConversion.m */; };
+		5D6074551E88B109009C6C58 /* PKVideoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60744B1E88B109009C6C58 /* PKVideoDecoder.m */; };
+		5D6074561E88B109009C6C58 /* PKFullScreenPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60744D1E88B109009C6C58 /* PKFullScreenPlayerView.m */; };
+		5D6074571E88B109009C6C58 /* PKFullScreenPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60744F1E88B109009C6C58 /* PKFullScreenPlayerViewController.m */; };
+		5D6074581E88B109009C6C58 /* PKPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074511E88B109009C6C58 /* PKPlayerManager.m */; };
+		5D6074611E88B115009C6C58 /* PKShortVideoProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60745A1E88B115009C6C58 /* PKShortVideoProgressBar.m */; };
+		5D6074621E88B115009C6C58 /* PKShortVideoRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60745C1E88B115009C6C58 /* PKShortVideoRecorder.m */; };
+		5D6074631E88B115009C6C58 /* PKShortVideoSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60745E1E88B115009C6C58 /* PKShortVideoSession.m */; };
+		5D6074641E88B115009C6C58 /* PKRecordShortVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074601E88B115009C6C58 /* PKRecordShortVideoViewController.m */; };
+		5D6074671E88B120009C6C58 /* UIImage+PKShortVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6074661E88B120009C6C58 /* UIImage+PKShortVideoPlayer.m */; };
+		5D60746A1E88B14D009C6C58 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6074691E88B14D009C6C58 /* AVFoundation.framework */; };
+		5D60746D1E88FA1C009C6C58 /* PKScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60746C1E88FA1C009C6C58 /* PKScreenViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D60740A1E88AB16009C6C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6073E81E88AB16009C6C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6073EF1E88AB16009C6C58;
+			remoteInfo = "视频提炼";
+		};
+		5D6074151E88AB17009C6C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D6073E81E88AB16009C6C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6073EF1E88AB16009C6C58;
+			remoteInfo = "视频提炼";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D6073F01E88AB16009C6C58 /* 视频提炼.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频提炼.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6073F41E88AB16009C6C58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D6073F61E88AB16009C6C58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D6073F71E88AB16009C6C58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D6073F91E88AB16009C6C58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D6073FA1E88AB16009C6C58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D6073FD1E88AB16009C6C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D6073FF1E88AB16009C6C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D6074021E88AB16009C6C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D6074041E88AB16009C6C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6074091E88AB16009C6C58 /* 视频提炼Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "视频提炼Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D60740D1E88AB17009C6C58 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		5D60740F1E88AB17009C6C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6074141E88AB17009C6C58 /* 视频提炼UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "视频提炼UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6074181E88AB17009C6C58 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		5D60741A1E88AB17009C6C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D60742E1E88B0CF009C6C58 /* TBCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCycleView.h; sourceTree = "<group>"; };
+		5D60742F1E88B0CF009C6C58 /* TBCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCycleView.m; sourceTree = "<group>"; };
+		5D6074311E88B0DF009C6C58 /* PKShortVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShortVideo.h; sourceTree = "<group>"; };
+		5D6074321E88B0ED009C6C58 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		5D6074331E88B0ED009C6C58 /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		5D6074341E88B0ED009C6C58 /* GPUImageContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageContext.h; sourceTree = "<group>"; };
+		5D6074351E88B0ED009C6C58 /* GPUImageContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageContext.m; sourceTree = "<group>"; };
+		5D6074361E88B0ED009C6C58 /* GPUImageFramebuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFramebuffer.h; sourceTree = "<group>"; };
+		5D6074371E88B0ED009C6C58 /* GPUImageFramebuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFramebuffer.m; sourceTree = "<group>"; };
+		5D6074381E88B0ED009C6C58 /* GPUImageFramebufferCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFramebufferCache.h; sourceTree = "<group>"; };
+		5D6074391E88B0ED009C6C58 /* GPUImageFramebufferCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFramebufferCache.m; sourceTree = "<group>"; };
+		5D60743E1E88B0FB009C6C58 /* PK_Camera_Turn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PK_Camera_Turn@2x.png"; sourceTree = "<group>"; };
+		5D60743F1E88B0FB009C6C58 /* PK_Delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PK_Delete@2x.png"; sourceTree = "<group>"; };
+		5D6074401E88B0FB009C6C58 /* PK_Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PK_Play@2x.png"; sourceTree = "<group>"; };
+		5D6074441E88B109009C6C58 /* PKChatMessagePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKChatMessagePlayerView.h; sourceTree = "<group>"; };
+		5D6074451E88B109009C6C58 /* PKChatMessagePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKChatMessagePlayerView.m; sourceTree = "<group>"; };
+		5D6074461E88B109009C6C58 /* PKPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPlayerView.h; sourceTree = "<group>"; };
+		5D6074471E88B109009C6C58 /* PKPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPlayerView.m; sourceTree = "<group>"; };
+		5D6074481E88B109009C6C58 /* PKColorConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKColorConversion.h; sourceTree = "<group>"; };
+		5D6074491E88B109009C6C58 /* PKColorConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKColorConversion.m; sourceTree = "<group>"; };
+		5D60744A1E88B109009C6C58 /* PKVideoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKVideoDecoder.h; sourceTree = "<group>"; };
+		5D60744B1E88B109009C6C58 /* PKVideoDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKVideoDecoder.m; sourceTree = "<group>"; };
+		5D60744C1E88B109009C6C58 /* PKFullScreenPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFullScreenPlayerView.h; sourceTree = "<group>"; };
+		5D60744D1E88B109009C6C58 /* PKFullScreenPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFullScreenPlayerView.m; sourceTree = "<group>"; };
+		5D60744E1E88B109009C6C58 /* PKFullScreenPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFullScreenPlayerViewController.h; sourceTree = "<group>"; };
+		5D60744F1E88B109009C6C58 /* PKFullScreenPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFullScreenPlayerViewController.m; sourceTree = "<group>"; };
+		5D6074501E88B109009C6C58 /* PKPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPlayerManager.h; sourceTree = "<group>"; };
+		5D6074511E88B109009C6C58 /* PKPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPlayerManager.m; sourceTree = "<group>"; };
+		5D6074591E88B115009C6C58 /* PKShortVideoProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShortVideoProgressBar.h; sourceTree = "<group>"; };
+		5D60745A1E88B115009C6C58 /* PKShortVideoProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShortVideoProgressBar.m; sourceTree = "<group>"; };
+		5D60745B1E88B115009C6C58 /* PKShortVideoRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShortVideoRecorder.h; sourceTree = "<group>"; };
+		5D60745C1E88B115009C6C58 /* PKShortVideoRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShortVideoRecorder.m; sourceTree = "<group>"; };
+		5D60745D1E88B115009C6C58 /* PKShortVideoSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShortVideoSession.h; sourceTree = "<group>"; };
+		5D60745E1E88B115009C6C58 /* PKShortVideoSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShortVideoSession.m; sourceTree = "<group>"; };
+		5D60745F1E88B115009C6C58 /* PKRecordShortVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRecordShortVideoViewController.h; sourceTree = "<group>"; };
+		5D6074601E88B115009C6C58 /* PKRecordShortVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRecordShortVideoViewController.m; sourceTree = "<group>"; };
+		5D6074651E88B120009C6C58 /* UIImage+PKShortVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PKShortVideoPlayer.h"; sourceTree = "<group>"; };
+		5D6074661E88B120009C6C58 /* UIImage+PKShortVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PKShortVideoPlayer.m"; sourceTree = "<group>"; };
+		5D6074691E88B14D009C6C58 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5D60746B1E88FA1C009C6C58 /* PKScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKScreenViewController.h; sourceTree = "<group>"; };
+		5D60746C1E88FA1C009C6C58 /* PKScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKScreenViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D6073ED1E88AB16009C6C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D60746A1E88B14D009C6C58 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6074061E88AB16009C6C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6074111E88AB17009C6C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D6073E71E88AB16009C6C58 = {
+			isa = PBXGroup;
+			children = (
+				5D6074281E88AE01009C6C58 /* PKShortVideo */,
+				5D6074271E88ABCF009C6C58 /* TBCycle */,
+				5D6073F21E88AB16009C6C58 /* 视频提炼 */,
+				5D60740C1E88AB16009C6C58 /* 视频提炼Tests */,
+				5D6074171E88AB17009C6C58 /* 视频提炼UITests */,
+				5D6073F11E88AB16009C6C58 /* Products */,
+				5D6074681E88B14D009C6C58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D6073F11E88AB16009C6C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D6073F01E88AB16009C6C58 /* 视频提炼.app */,
+				5D6074091E88AB16009C6C58 /* 视频提炼Tests.xctest */,
+				5D6074141E88AB17009C6C58 /* 视频提炼UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D6073F21E88AB16009C6C58 /* 视频提炼 */ = {
+			isa = PBXGroup;
+			children = (
+				5D6073F61E88AB16009C6C58 /* AppDelegate.h */,
+				5D6073F71E88AB16009C6C58 /* AppDelegate.m */,
+				5D6073F91E88AB16009C6C58 /* ViewController.h */,
+				5D6073FA1E88AB16009C6C58 /* ViewController.m */,
+				5D6073FC1E88AB16009C6C58 /* Main.storyboard */,
+				5D6073FF1E88AB16009C6C58 /* Assets.xcassets */,
+				5D6074011E88AB16009C6C58 /* LaunchScreen.storyboard */,
+				5D6074041E88AB16009C6C58 /* Info.plist */,
+				5D6073F31E88AB16009C6C58 /* Supporting Files */,
+			);
+			path = "视频提炼";
+			sourceTree = "<group>";
+		};
+		5D6073F31E88AB16009C6C58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D6073F41E88AB16009C6C58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D60740C1E88AB16009C6C58 /* 视频提炼Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D60740D1E88AB17009C6C58 /* ____Tests.m */,
+				5D60740F1E88AB17009C6C58 /* Info.plist */,
+			);
+			path = "视频提炼Tests";
+			sourceTree = "<group>";
+		};
+		5D6074171E88AB17009C6C58 /* 视频提炼UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D6074181E88AB17009C6C58 /* ____UITests.m */,
+				5D60741A1E88AB17009C6C58 /* Info.plist */,
+			);
+			path = "视频提炼UITests";
+			sourceTree = "<group>";
+		};
+		5D6074271E88ABCF009C6C58 /* TBCycle */ = {
+			isa = PBXGroup;
+			children = (
+				5D60742E1E88B0CF009C6C58 /* TBCycleView.h */,
+				5D60742F1E88B0CF009C6C58 /* TBCycleView.m */,
+			);
+			path = TBCycle;
+			sourceTree = "<group>";
+		};
+		5D6074281E88AE01009C6C58 /* PKShortVideo */ = {
+			isa = PBXGroup;
+			children = (
+				5D6074311E88B0DF009C6C58 /* PKShortVideo.h */,
+				5D6074291E88AE01009C6C58 /* Category */,
+				5D60742A1E88AE01009C6C58 /* GPUImage */,
+				5D60742B1E88AE01009C6C58 /* PKAsset */,
+				5D60742C1E88AE01009C6C58 /* PKShortVideoPlayer */,
+				5D60742D1E88AE01009C6C58 /* PKShortVideoWriter */,
+			);
+			path = PKShortVideo;
+			sourceTree = "<group>";
+		};
+		5D6074291E88AE01009C6C58 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5D6074651E88B120009C6C58 /* UIImage+PKShortVideoPlayer.h */,
+				5D6074661E88B120009C6C58 /* UIImage+PKShortVideoPlayer.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5D60742A1E88AE01009C6C58 /* GPUImage */ = {
+			isa = PBXGroup;
+			children = (
+				5D6074321E88B0ED009C6C58 /* GLProgram.h */,
+				5D6074331E88B0ED009C6C58 /* GLProgram.m */,
+				5D6074341E88B0ED009C6C58 /* GPUImageContext.h */,
+				5D6074351E88B0ED009C6C58 /* GPUImageContext.m */,
+				5D6074361E88B0ED009C6C58 /* GPUImageFramebuffer.h */,
+				5D6074371E88B0ED009C6C58 /* GPUImageFramebuffer.m */,
+				5D6074381E88B0ED009C6C58 /* GPUImageFramebufferCache.h */,
+				5D6074391E88B0ED009C6C58 /* GPUImageFramebufferCache.m */,
+			);
+			path = GPUImage;
+			sourceTree = "<group>";
+		};
+		5D60742B1E88AE01009C6C58 /* PKAsset */ = {
+			isa = PBXGroup;
+			children = (
+				5D60743E1E88B0FB009C6C58 /* PK_Camera_Turn@2x.png */,
+				5D60743F1E88B0FB009C6C58 /* PK_Delete@2x.png */,
+				5D6074401E88B0FB009C6C58 /* PK_Play@2x.png */,
+			);
+			path = PKAsset;
+			sourceTree = "<group>";
+		};
+		5D60742C1E88AE01009C6C58 /* PKShortVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5D6074441E88B109009C6C58 /* PKChatMessagePlayerView.h */,
+				5D6074451E88B109009C6C58 /* PKChatMessagePlayerView.m */,
+				5D6074461E88B109009C6C58 /* PKPlayerView.h */,
+				5D6074471E88B109009C6C58 /* PKPlayerView.m */,
+				5D6074481E88B109009C6C58 /* PKColorConversion.h */,
+				5D6074491E88B109009C6C58 /* PKColorConversion.m */,
+				5D60744A1E88B109009C6C58 /* PKVideoDecoder.h */,
+				5D60744B1E88B109009C6C58 /* PKVideoDecoder.m */,
+				5D60744C1E88B109009C6C58 /* PKFullScreenPlayerView.h */,
+				5D60744D1E88B109009C6C58 /* PKFullScreenPlayerView.m */,
+				5D60744E1E88B109009C6C58 /* PKFullScreenPlayerViewController.h */,
+				5D60744F1E88B109009C6C58 /* PKFullScreenPlayerViewController.m */,
+				5D6074501E88B109009C6C58 /* PKPlayerManager.h */,
+				5D6074511E88B109009C6C58 /* PKPlayerManager.m */,
+			);
+			path = PKShortVideoPlayer;
+			sourceTree = "<group>";
+		};
+		5D60742D1E88AE01009C6C58 /* PKShortVideoWriter */ = {
+			isa = PBXGroup;
+			children = (
+				5D6074591E88B115009C6C58 /* PKShortVideoProgressBar.h */,
+				5D60745A1E88B115009C6C58 /* PKShortVideoProgressBar.m */,
+				5D60745B1E88B115009C6C58 /* PKShortVideoRecorder.h */,
+				5D60745C1E88B115009C6C58 /* PKShortVideoRecorder.m */,
+				5D60745D1E88B115009C6C58 /* PKShortVideoSession.h */,
+				5D60745E1E88B115009C6C58 /* PKShortVideoSession.m */,
+				5D60745F1E88B115009C6C58 /* PKRecordShortVideoViewController.h */,
+				5D6074601E88B115009C6C58 /* PKRecordShortVideoViewController.m */,
+				5D60746B1E88FA1C009C6C58 /* PKScreenViewController.h */,
+				5D60746C1E88FA1C009C6C58 /* PKScreenViewController.m */,
+			);
+			path = PKShortVideoWriter;
+			sourceTree = "<group>";
+		};
+		5D6074681E88B14D009C6C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D6074691E88B14D009C6C58 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D6073EF1E88AB16009C6C58 /* 视频提炼 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D60741D1E88AB17009C6C58 /* Build configuration list for PBXNativeTarget "视频提炼" */;
+			buildPhases = (
+				5D6073EC1E88AB16009C6C58 /* Sources */,
+				5D6073ED1E88AB16009C6C58 /* Frameworks */,
+				5D6073EE1E88AB16009C6C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "视频提炼";
+			productName = "视频提炼";
+			productReference = 5D6073F01E88AB16009C6C58 /* 视频提炼.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D6074081E88AB16009C6C58 /* 视频提炼Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6074201E88AB17009C6C58 /* Build configuration list for PBXNativeTarget "视频提炼Tests" */;
+			buildPhases = (
+				5D6074051E88AB16009C6C58 /* Sources */,
+				5D6074061E88AB16009C6C58 /* Frameworks */,
+				5D6074071E88AB16009C6C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D60740B1E88AB16009C6C58 /* PBXTargetDependency */,
+			);
+			name = "视频提炼Tests";
+			productName = "视频提炼Tests";
+			productReference = 5D6074091E88AB16009C6C58 /* 视频提炼Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D6074131E88AB17009C6C58 /* 视频提炼UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6074231E88AB17009C6C58 /* Build configuration list for PBXNativeTarget "视频提炼UITests" */;
+			buildPhases = (
+				5D6074101E88AB17009C6C58 /* Sources */,
+				5D6074111E88AB17009C6C58 /* Frameworks */,
+				5D6074121E88AB17009C6C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D6074161E88AB17009C6C58 /* PBXTargetDependency */,
+			);
+			name = "视频提炼UITests";
+			productName = "视频提炼UITests";
+			productReference = 5D6074141E88AB17009C6C58 /* 视频提炼UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D6073E81E88AB16009C6C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "启微时代";
+				TargetAttributes = {
+					5D6073EF1E88AB16009C6C58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 35UT8G5DWP;
+						ProvisioningStyle = Automatic;
+					};
+					5D6074081E88AB16009C6C58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 35UT8G5DWP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D6073EF1E88AB16009C6C58;
+					};
+					5D6074131E88AB17009C6C58 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 35UT8G5DWP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D6073EF1E88AB16009C6C58;
+					};
+				};
+			};
+			buildConfigurationList = 5D6073EB1E88AB16009C6C58 /* Build configuration list for PBXProject "视频提炼" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D6073E71E88AB16009C6C58;
+			productRefGroup = 5D6073F11E88AB16009C6C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D6073EF1E88AB16009C6C58 /* 视频提炼 */,
+				5D6074081E88AB16009C6C58 /* 视频提炼Tests */,
+				5D6074131E88AB17009C6C58 /* 视频提炼UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D6073EE1E88AB16009C6C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6074031E88AB16009C6C58 /* LaunchScreen.storyboard in Resources */,
+				5D6074411E88B0FB009C6C58 /* PK_Camera_Turn@2x.png in Resources */,
+				5D6074001E88AB16009C6C58 /* Assets.xcassets in Resources */,
+				5D6073FE1E88AB16009C6C58 /* Main.storyboard in Resources */,
+				5D6074421E88B0FB009C6C58 /* PK_Delete@2x.png in Resources */,
+				5D6074431E88B0FB009C6C58 /* PK_Play@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6074071E88AB16009C6C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6074121E88AB17009C6C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D6073EC1E88AB16009C6C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6074611E88B115009C6C58 /* PKShortVideoProgressBar.m in Sources */,
+				5D6074541E88B109009C6C58 /* PKColorConversion.m in Sources */,
+				5D60746D1E88FA1C009C6C58 /* PKScreenViewController.m in Sources */,
+				5D6074631E88B115009C6C58 /* PKShortVideoSession.m in Sources */,
+				5D6074621E88B115009C6C58 /* PKShortVideoRecorder.m in Sources */,
+				5D6073FB1E88AB16009C6C58 /* ViewController.m in Sources */,
+				5D6074301E88B0CF009C6C58 /* TBCycleView.m in Sources */,
+				5D6074671E88B120009C6C58 /* UIImage+PKShortVideoPlayer.m in Sources */,
+				5D60743A1E88B0ED009C6C58 /* GLProgram.m in Sources */,
+				5D6074641E88B115009C6C58 /* PKRecordShortVideoViewController.m in Sources */,
+				5D60743C1E88B0ED009C6C58 /* GPUImageFramebuffer.m in Sources */,
+				5D6074531E88B109009C6C58 /* PKPlayerView.m in Sources */,
+				5D6073F81E88AB16009C6C58 /* AppDelegate.m in Sources */,
+				5D6074571E88B109009C6C58 /* PKFullScreenPlayerViewController.m in Sources */,
+				5D6074561E88B109009C6C58 /* PKFullScreenPlayerView.m in Sources */,
+				5D6074581E88B109009C6C58 /* PKPlayerManager.m in Sources */,
+				5D6074551E88B109009C6C58 /* PKVideoDecoder.m in Sources */,
+				5D60743D1E88B0ED009C6C58 /* GPUImageFramebufferCache.m in Sources */,
+				5D60743B1E88B0ED009C6C58 /* GPUImageContext.m in Sources */,
+				5D6073F51E88AB16009C6C58 /* main.m in Sources */,
+				5D6074521E88B109009C6C58 /* PKChatMessagePlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6074051E88AB16009C6C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D60740E1E88AB17009C6C58 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6074101E88AB17009C6C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6074191E88AB17009C6C58 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D60740B1E88AB16009C6C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6073EF1E88AB16009C6C58 /* 视频提炼 */;
+			targetProxy = 5D60740A1E88AB16009C6C58 /* PBXContainerItemProxy */;
+		};
+		5D6074161E88AB17009C6C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6073EF1E88AB16009C6C58 /* 视频提炼 */;
+			targetProxy = 5D6074151E88AB17009C6C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D6073FC1E88AB16009C6C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D6073FD1E88AB16009C6C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D6074011E88AB16009C6C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D6074021E88AB16009C6C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D60741B1E88AB17009C6C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D60741C1E88AB17009C6C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D60741E1E88AB17009C6C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35UT8G5DWP;
+				INFOPLIST_FILE = "视频提炼/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zz.mohu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D60741F1E88AB17009C6C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 35UT8G5DWP;
+				INFOPLIST_FILE = "视频提炼/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zz.mohu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5D6074211E88AB17009C6C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 35UT8G5DWP;
+				INFOPLIST_FILE = "视频提炼Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zz.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/视频提炼.app/视频提炼";
+			};
+			name = Debug;
+		};
+		5D6074221E88AB17009C6C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 35UT8G5DWP;
+				INFOPLIST_FILE = "视频提炼Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zz.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/视频提炼.app/视频提炼";
+			};
+			name = Release;
+		};
+		5D6074241E88AB17009C6C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 35UT8G5DWP;
+				INFOPLIST_FILE = "视频提炼UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zz.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "视频提炼";
+			};
+			name = Debug;
+		};
+		5D6074251E88AB17009C6C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 35UT8G5DWP;
+				INFOPLIST_FILE = "视频提炼UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zz.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "视频提炼";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D6073EB1E88AB16009C6C58 /* Build configuration list for PBXProject "视频提炼" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D60741B1E88AB17009C6C58 /* Debug */,
+				5D60741C1E88AB17009C6C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D60741D1E88AB17009C6C58 /* Build configuration list for PBXNativeTarget "视频提炼" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D60741E1E88AB17009C6C58 /* Debug */,
+				5D60741F1E88AB17009C6C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D6074201E88AB17009C6C58 /* Build configuration list for PBXNativeTarget "视频提炼Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6074211E88AB17009C6C58 /* Debug */,
+				5D6074221E88AB17009C6C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D6074231E88AB17009C6C58 /* Build configuration list for PBXNativeTarget "视频提炼UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6074241E88AB17009C6C58 /* Debug */,
+				5D6074251E88AB17009C6C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D6073E81E88AB16009C6C58 /* Project object */;
+}
